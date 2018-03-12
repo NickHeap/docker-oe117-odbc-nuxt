@@ -13,17 +13,17 @@ npm install --global --production windows-build-tools
 ### Build
 
 ```bash
-docker build -t sequelize-odbc-openedge:latest .
+docker build -t docker-oe117-odbc-nuxt:latest .
 ```
 
 ### Run
 
 ```bash
- docker run -it -p 30000:30000 sequelize-odbc-openedge:latest
+ docker run -it -p 30000:30000 docker-oe117-odbc-nuxt:latest
 ```
 
 ### Run with bash
 
 ```bash
-docker run -it sequelize-odbc-openedge:latest bash
+docker run -it docker-oe117-odbc-nuxt:latest bash
 ```
