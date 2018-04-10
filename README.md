@@ -27,3 +27,8 @@ docker build -t docker-oe117-odbc-nuxt:latest .
 ```bash
 docker run -it docker-oe117-odbc-nuxt:latest bash
 ```
+
+- - -
+
+Please note that this project is released with a [Contributor Code of Conduct](code-of-conduct.md). By participating in this project you agree to abide by its terms.
+
